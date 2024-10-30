@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy One Year</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing-page">
+        <div class="slideshow-container">
+            <div class="slide fade" style="background-image: url('image1.jpg');"></div>
+            <div class="slide fade" style="background-image: url('image2.jpg');"></div>
+            <div class="slide fade" style="background-image: url('image3.jpg');"></div>
+            <div class="slide fade" style="background-image: url('image4.jpg');"></div>
+            <div class="slide fade" style="background-image: url('image5.jpg');"></div>
+            <div class="slide fade" style="background-image: url('image6.jpg');"></div>
+            <div class="slide fade" style="background-image: url('image7.jpg');"></div>
+        </div>
+        <div class="slideshow-text">
+            <h1>The 7pm Moment Vault</h1>
+            <button id="enter-btn">Enter</button>
+        </div>
+    </div>
+
+    <!-- Gallery Page -->
+    <div id="gallery-page" style="display: none;">
+        <button id="back-btn" class="back-btn">← Back</button>
+        <h1 class="gallery-title"> My Favourite Moments</h1>
+        <div class="gallery">
+            <div class="image-container">
+                <img src="image1.jpg" alt="Image 1" class="gallery-image">
+                <p class="image-caption">in that moment, I felt a crazy rush of happiness, knowing that we get to share these moments together. You have a wonderful smile, and it makes every day feel brighter</p>
+            </div>
+            <div class="image-container">
+                <img src="image2.jpg" alt="Image 2" class="gallery-image">
+                <p class="image-caption">I loved seeing how excited you were and how much you couldn't stop smiling that day </p>
+            </div>
+            <div class="image-container">
+                <img src="image3.jpg" alt="Image 3" class="gallery-image">
+                <p class="image-caption">Loved having you next to me at my birthday made it all feel so much more special.</p>
+            </div>
+            <div class="image-container">
+                <img src="image4.jpg" alt="Image 4" class="gallery-image">
+                <p class="image-caption">Mun wasn't really special day I just think I look hot as fuck in this </p>
+            </div>
+            <div class="image-container">
+                <img src="image5.jpg" alt="Image 5" class="gallery-image">
+                <p class="image-caption">You looked amazing in that saree. I had no idea that seeing you in one, especially after you wouldn’t let me peek before the big day, would make me feel so much luckier. </p>
+            </div>
+            <div class="image-container">
+                <img src="image6.jpg" alt="Image 6" class="gallery-image">
+                <p class="image-caption">basement 1 or basement 2?</p>
+            </div>
+            <div class="image-container">
+                <img src="image7.jpg" alt="Image 7" class="gallery-image">
+                <p class="image-caption">this one is my favourite picture first time we ever celebrated something like this first time I ever felt a connection like this with you </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Expanded Image -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="Expanded Image">
+            <p id="modal-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
